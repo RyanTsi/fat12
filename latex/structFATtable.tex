@@ -1,0 +1,24 @@
+\doxysection{FATtable Struct Reference}
+\hypertarget{structFATtable}{}\label{structFATtable}\index{FATtable@{FATtable}}
+
+
+FAT文件分配表  
+
+
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{structFATtable_adff62296617c8ca5eecb6bf816670737}\label{structFATtable_adff62296617c8ca5eecb6bf816670737} 
+int {\bfseries state} \mbox{[}BLOCK\+\_\+\+NUM\mbox{]}
+\begin{DoxyCompactList}\small\item\em 存储磁盘的状态信息 state 0x000 空闲簇 0x001 保留簇 0x002 -\/ 0x\+FEF 被占用的簇；指向下一个簇 0x\+FF0 -\/ 0x\+FF6 保留值 0x\+FF7 坏簇 0x\+FF8 -\/ 0x\+FFF 文件结束簇 \end{DoxyCompactList}\item 
+\Hypertarget{structFATtable_a729e6658e517d0101117cac38bece0bd}\label{structFATtable_a729e6658e517d0101117cac38bece0bd} 
+int {\bfseries free\+\_\+count}
+\begin{DoxyCompactList}\small\item\em 空闲簇的数量 \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+FAT文件分配表 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+main.\+c\end{DoxyCompactItemize}
